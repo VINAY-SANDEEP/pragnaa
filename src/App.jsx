@@ -1,22 +1,38 @@
-import React from 'react'
-import Navbar from './components/NavBar'
-import HeroSection from './components/HeroSection'
-import Service from './components/Service'
-import AboutUs from './components/AboutUs'
-import InstructorPage from './components/InstructorPage'
-import Footer from './components/Footer'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/NavBar';
+import HeroSection from './components/HeroSection';
+import Service from './components/Service';
+import AboutUs from './components/AboutUs';
+import InstructorPage from './components/InstructorPage';
+import Footer from './components/Footer';
+import CoursesList from './components/CoursesList';
+import CourseDe from './components/CourseDetail';
 
 const App = () => {
   return (
-    <>
-    <Navbar/>
-    <HeroSection/>
-    <Service/>
-    <AboutUs/>
-    <InstructorPage/>
-    <Footer/>
-    </>
-  )
-}
+    <Router>
+      <Navbar />
+      <Routes>
+        {/* Home Page */}
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <Service />
+              <AboutUs />
+              <InstructorPage />
+              <Footer />
+            </>
+          }
+        />
+        {/* Course Detail Page */}
+         <Route path="/courses" element={<CoursesList />} />
+        <Route path="/course/:id" element={<CourseDe />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

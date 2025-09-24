@@ -7,11 +7,8 @@ export default function Navbar() {
   const links = [
     { name: "Home", href: "#" },
     { name: "About", href: "#" },
-    { name: "Courses", href: "#" },
+    { name: "Courses", href: "/courses" },
     { name: "Announcements", href: "#" },
-    { name: "Score", href: "#" },
-    { name: "Previous Year Papers", href: "#" },
-    { name: "Homework", href: "#" },
     { name: "Contact", href: "#" },
     { name: "Notes", href: "#" },
   ];
