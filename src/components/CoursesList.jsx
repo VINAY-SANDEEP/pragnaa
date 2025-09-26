@@ -34,8 +34,7 @@ const coursesData = [
     subject: "Science",
     faculty: "Alakh Pandey (Physics Wallah)",
     description: "Conceptual clarity and problem-based learning on laws of motion with NEET orientation.",
-    thumbnail: "https://img.youtube.com/vi/gStx4uUKC5g/hqdefault.jpg",
-    playlistUrl: "https://www.youtube.com/playlist?list=PLj5Sjn0a0P2F8hFYyVhzL7rbWxhcqhi9b",
+    thumbnail: "https://images.examples.com/wp-content/uploads/2024/04/Newton-Laws-of-Motion.png",
     videos: [
       {
         title: "Introduction to Laws of Motion",
@@ -58,13 +57,13 @@ const coursesData = [
     subject: "Science",
     faculty: "Khan Academy India",
     description: "Core concepts of nutrition in animals aligned with CBSE and olympiad syllabi.",
-    thumbnail: "https://img.youtube.com/vi/qkU9piK2bvc/hqdefault.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG3G8UIhUHPkwf6JxQC46rU12591yU60hhzw&s",
     playlistUrl: "https://www.youtube.com/playlist?list=PL6bMVhL_GRx7kT9Q7Kx4JrQN3kL_KB2p7",
     videos: [
       {
         title: "Introduction: Nutrition in Animals",
-        url: "https://www.youtube.com/watch?v=qkU9piK2bvc",
-        thumbnail: "https://img.youtube.com/vi/qkU9piK2bvc/mqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=5m9sYqJNoWk&list=RD8PQNsHGhm2w&index=3",
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqZaDZXX7qTMP9_JONm-Kdlu7KV8UAm5-Y8g&s",
         description: "Fundamental ideas for understanding animal nutrition."
       },
       {
@@ -82,7 +81,7 @@ const coursesData = [
     subject: "English",
     faculty: "Vedantu English Team",
     description: "Master descriptive and narrative writing skills targeting board exams.",
-    thumbnail: "https://img.youtube.com/vi/4dFfD0Ud7uw/hqdefault.jpg",
+    thumbnail: "https://cgrinternationalschool.edu.in/blog/wp-content/uploads/2022/08/creative-writing-is-an-essential-life-skill_1200x628-01.png",
     playlistUrl: "https://www.youtube.com/playlist?list=PLqM7alHXFySHYLxvXzNduZ7WYIAUIU63_",
     videos: [
       {
