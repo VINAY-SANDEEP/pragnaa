@@ -58,26 +58,6 @@ export default function AboutUs() {
             </ul>
           </div>
         </div>
-
-        {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 text-center">
-          <div className="p-6 bg-white rounded-xl shadow-md">
-            <h4 className="text-3xl font-bold text-blue-600">10K+</h4>
-            <p className="text-gray-600">Students Enrolled</p>
-          </div>
-          <div className="p-6 bg-white rounded-xl shadow-md">
-            <h4 className="text-3xl font-bold text-blue-600">500+</h4>
-            <p className="text-gray-600">Courses</p>
-          </div>
-          <div className="p-6 bg-white rounded-xl shadow-md">
-            <h4 className="text-3xl font-bold text-blue-600">200+</h4>
-            <p className="text-gray-600">Expert Mentors</p>
-          </div>
-          <div className="p-6 bg-white rounded-xl shadow-md">
-            <h4 className="text-3xl font-bold text-blue-600">95%</h4>
-            <p className="text-gray-600">Success Rate</p>
-          </div>
-        </div>
       </div>
     </section>
   );
