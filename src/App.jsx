@@ -6,8 +6,7 @@ import Service from './components/Service';
 import AboutUs from './components/AboutUs';
 import InstructorPage from './components/InstructorPage';
 import Footer from './components/Footer';
-import CoursesList from './components/CoursesList';
-import CourseDe from './components/CourseDetail';
+
 
 const App = () => {
   return (
@@ -27,9 +26,6 @@ const App = () => {
             </>
           }
         />
-        {/* Course Detail Page */}
-         <Route path="/courses" element={<CoursesList />} />
-        <Route path="/course/:id" element={<CourseDe />} />
       </Routes>
     </Router>
   );

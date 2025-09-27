@@ -7,7 +7,7 @@ export default function Navbar() {
   const links = [
     { name: "Home", href: "#" },
     { name: "About", href: "#" },
-    { name: "Courses", href: "/courses" },
+    { name: "Courses", href: "https://courses-kappa-one.vercel.app/" },
     { name: "Announcements", href: "#" },
     { name: "Contact", href: "#" },
     { name: "Notes", href: "#" },
